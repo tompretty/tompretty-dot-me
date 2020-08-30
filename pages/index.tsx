@@ -5,6 +5,7 @@ const Home: React.FC = () => {
   return (
     <>
       <Head>
+        <meta name="description" content="Tom Pretty's personal site" />
         <title>Tom Pretty</title>
       </Head>
       <div className="max-w-xl px-6 mx-auto my-10 space-y-8">
