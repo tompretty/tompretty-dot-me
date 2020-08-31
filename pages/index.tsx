@@ -28,15 +28,15 @@ const Home: React.FC = () => {
               I&apos;m also rather fond of tennis 🎾 cooking 🍳 and my dog 🐶
             </p>
           </section>
-          <section className="space-y-4">
+          <section className="space-y-3">
             <h2 className="text-3xl font-semibold">Projects</h2>
             <p className="text-2xl">
               I&apos;m still a little new to all this, so don&apos;t have too
               many of these to show off just yet. Here&apos;s a few that
               I&apos;m not too embarrassed by
             </p>
-            <ul className="space-y-2">
-              <li>
+            <ul className="space-y-2 divide-y-2">
+              <li className="py-1">
                 <a
                   className="text-2xl text-blue-600 hover:underline"
                   href="https://github.com/TomPretty/shopping-list"
@@ -49,10 +49,10 @@ const Home: React.FC = () => {
                   A web app for compiling shopping lists
                 </div>
               </li>
-              <li>
+              <li className="py-1">
                 <a
                   className="text-2xl text-blue-600 hover:underline"
-                  href="https://cryptictofifteensquared.com"
+                  href="https://github.com/TomPretty/cryptic-to-fifteensquared-dotcom"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -71,7 +71,7 @@ const Home: React.FC = () => {
                   </a>
                 </div>
               </li>
-              <li>
+              <li className="py-1">
                 <a
                   className="text-2xl text-blue-600 hover:underline"
                   href="https://github.com/TomPretty/weather_display"
@@ -84,7 +84,7 @@ const Home: React.FC = () => {
                   A weather display that runs on a raspberry pi + e ink display
                 </div>
               </li>
-              <li>
+              <li className="py-1">
                 <div className="space-x-2">
                   <span>
                     <a
@@ -121,7 +121,7 @@ const Home: React.FC = () => {
                   A trio of projects for todo list goodness in vim
                 </div>
               </li>
-              <li>
+              <li className="py-1">
                 <a
                   className="text-2xl text-blue-600 hover:underline"
                   href="https://github.com/TomPretty/tic_tac_toe"
